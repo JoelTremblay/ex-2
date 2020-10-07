@@ -10,7 +10,7 @@
  */
 
 ?>
-
+<!--Ceci est un commentaire inutile -->
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'theme-exer-1' ) ); ?>">
@@ -25,8 +25,8 @@
 				printf( esc_html__( 'Theme: %1$s by %2$s.', 'theme-exer-1' ), 'theme-exer-1', '<a href="http://underscores.me/">Diphany Chea</a>' );
 				?>
 		</div><!-- .site-info -->
+		<div>Div inutile ici</div>
 	</footer><!-- #colophon -->
-	<div>Div tres utile ici</div>
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
